@@ -1,0 +1,3 @@
+# duplicate_file_cleaner
+
+This code is counting the number of times each url appears in a list of urls stored in a file called "url_list.txt", and then writing any url that appears more than once, along with its count, to a file called "duplicates.txt". It first imports the "collections" library, which provides the Counter object used to count the occurrences of each url. Then it opens the "url_list.txt" file, reads its contents into a variable called "urls", and creates a Counter object called "url_counts" that contains the count of each url in "urls". Next, it opens "duplicates.txt" file in write mode, and iterates over the items in "url_counts", writing any url with a count greater than one to "duplicates.txt".
